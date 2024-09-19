@@ -9,7 +9,7 @@ import { UserCircleIcon } from '@heroicons/react/24/solid';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Passenger', href: '/passenger' },
+  // { name: 'Passenger', href: '/passenger' },
 ];
 const buttons = [
   { name: 'Login', href: '/signin' },

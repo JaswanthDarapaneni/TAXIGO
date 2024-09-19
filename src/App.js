@@ -16,7 +16,7 @@ const App = () => {
   const isLoggedIn = isUserLoggedIn(); // Example: use state or context to manage this
   const mode = 'dark';
   return (
-    <div className='dark bg-gradient-to-r from-white to-gray-100 dark:from-black dark:to-gray-900'>
+    <div className={`${mode} bg-gradient-to-r from-white to-gray-100 dark:from-black dark:to-gray-900`}>
       <Router>
       <Header loginStatus={isLoggedIn} mode={mode}/>
         <Routes>

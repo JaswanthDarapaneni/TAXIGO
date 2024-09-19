@@ -1,3 +1,4 @@
+import SignupForm from "../elements/button/forms/SighupForm";
 import Header from "../parts/header";
 
 function SignPage() {
@@ -5,7 +6,7 @@ function SignPage() {
     return (
         <>
             <Header />
-            
+            <SignupForm />
         </>
 
     );
