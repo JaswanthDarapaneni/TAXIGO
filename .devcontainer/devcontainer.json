@@ -1,0 +1,22 @@
+{
+    "name": "TaxiGo",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [
+      3306,
+      3000,
+      4200,
+      4201
+    ],
+    "shutdownAction": "stopCompose",
+    "remoteUser": "node",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "editorconfig.editorconfig"
+        ]
+      }
+    }
+  }
+  
